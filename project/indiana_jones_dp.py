@@ -100,7 +100,6 @@ class IndianaJones:
         return result
 
     def total_value_and_weight(self, items_in_bag):
-        ' Totalise a particular items_in_bagination of items'
         totwt = totval = 0
         for item, wt, val in items_in_bag:
             totwt += wt
